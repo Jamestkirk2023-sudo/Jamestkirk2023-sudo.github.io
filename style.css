@@ -102,6 +102,9 @@ td {
     border-top: .5px solid black;  
 }
 
-.code p {
+.code pre {
     font-size: 14px;
+    text-align: left;
+    white-space: pre-line;
+    
 }

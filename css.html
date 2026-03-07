@@ -49,6 +49,54 @@
                 <li>color = property</li>
                 <li>blue = value</li>
             </ul>
+
+            <h3>Psuedo Classes</h3>
+            <p>Actions that can be assigned to attributes causing different actions based on declaration passed in.</p>
+
+            <ul>
+                <li>
+                    p:hover - Affects an element when cursors hovers over
+                </li>
+                <li>
+                    :active - Affects an element when the user interacts with it.
+                </li>
+            </ul>
+
+            <h4>Example</h4>
+            <div class="code">
+                <pre>
+                    p:hover {
+                        background-color: lime;
+                    }
+                </pre>
+            </div>
+
+            <h3>Descendant Combinator</h3>
+            <p>
+                In addition to chaining selectors to select elements, CSS also supports selecting elements that are nested within other HTML elements. These are also known as descendants.
+            </p>
+
+            <h4>Consider the following: </h4>
+            <div class="code">
+                <pre>
+                    &lt;ul class="main-list"&gt;
+                        &lt;li&gt; ... &lt;/li&gt;
+                        &lt;li&gt; ... &lt;/li&gt;
+                        &lt;li&gt; ... &lt;/li&gt;
+                    &lt;/ul&gt;
+                </pre>
+            </div>
+            <p>The nested li elements are descendants of the ul element and can be selected like so:</p>
+            <div class="code">
+                
+                <pre>
+                    .main_list li {
+
+                    }
+                </pre>
+            </div>
+            <p>The above example shows, .main_list selects the element with the .main-list class(the ul element)</p>
+            <p>The descendant li elements are selected by adding the li to the selector, separated by a space.</p>
         </main>
     </body>
 </html>
