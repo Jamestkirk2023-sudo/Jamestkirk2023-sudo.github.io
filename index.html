@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<head>
+    <title>HTML/CSS Cheatsheet</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>HTML/CSS Cheatsheet!</h1>
+        <p>Notes to keep you succesful in building websites!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tables.html">Tables</a></li>
+            <li><a href="forms.html">Forms</a></li>
+            <li><a href="semantic_html.html">Semantic HTML</a></li>
+            <li><a href="css.html">CSS Notes</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h3>Basic HTML Tags and descriptions</h3>
+        <!--Table outlining basic HTML tags-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;head&gt;</td>
+                    <td>Head</td>
+                    <td>This tag should contain the metadata for the site</td>
+                </tr>
+                <tr>
+                    <td>&lt;h1&gt;</td>
+                    <td>Heading</td>
+                    <td>Declares a heading, importance of the heading is indicated by the number (1 - 6)</td>
+                </tr>
+                <tr>
+                    <td>&lt;p&gt;</td>
+                    <td>Paragraph</td>
+                    <td>Declares a paragraph, this is displayed in the default text on the page</td>
+                </tr>
+                <tr>
+                    <td>&lt;div&gt;</td>
+                    <td>Division</td>
+                    <td>Declares a division of the html code and acts as parent to tags within.</td>
+                </tr>
+                <tr>
+                    <td>&lt;em&gt;</td>
+                    <td>Emphasis</td>
+                    <td>Applies empahsis to surrounded text (default italic)</td>
+                </tr>
+                <tr>
+                    <td>&lt;strong&gt;</td>
+                    <td>Strong</td>
+                    <td>Highlight surrounded text (default bold)</td>
+                </tr>
+                <tr>
+                    <td>&lt;span&gt;</td>
+                    <td>Span</td>
+                    <td>Used to select or declare a short line of text</td>
+                </tr>
+                <tr>
+                    <td>&lt;ul&gt;</td>
+                    <td>Unordered List</td>
+                    <td>A list declaration that uses bullet points by default</td>
+                </tr>
+                <tr>
+                    <td>&lt;ol&gt;</td>
+                    <td>Ordered List</td>
+                    <td>A list declaration that uses numbered points</td>
+                </tr>
+                <tr>
+                    <td>&lt;li&gt;</td>
+                    <td>List Object</td>
+                    <td>Tag that must surround each object within a list</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <!--Outlines in greater detail usage of heading tags-->
+        <h3>Heading tags and Usage in HTML</h3>
+        <p>You can use any of the 6 heading tags to denote a heading in html, each tag is a different size and importance in the hierarchy of the Site.
+            h1 is the largest and most important of these tags and should only be used once per page, this will denote the most important heading on the page. Each subsequent
+            tag is smaller than the previous (h1, h2, h3, h4, h5, h6)
+        </p>
+        <h4>Examples</h4>
+        <div class="code">
+            <p>&lt;h1&gt;This is a Main Heading!&lt;/h1&gt;</p>
+            <br>
+            <p>&lt;h3&gt;This is a sub-heading!&lt;/h3&gt;</p>
+        </div>
+        
+        <!--Outlines adding an image to webpage, using HTML-->
+        <h3>Adding an image using HTML</h3>
+        <p>To add an image in your HTML file, you will need to use the img tag. It will also require the following attributes.</p>
+        <ul>
+            <li>src(source location of the image, this can be a local file or a link to an image online).</li>
+            <li>URL must be nested inside quotation marks.</li>
+            <li>Possible additional attributes include alt(alternate description of image)</li>
+        </ul>
+        <h4>Example</h4>
+        <div class="code">
+            <p>&lt;img src="photo.jpeg" /&gt;</p>
+        </div>
+
+        <!--Outlines adding a video to webpage, using HTML-->
+        <h3>Adding a Video in HTML</h3>
+        <p>You can use the video tag in HTML to add videos to your webpage! To do this you will need to also include a src URL, this is not a self closing tag
+            so you will need to add a closing tag. Between the opening and closing tags you can add a message to be displayed if the video does not load. 
+        </p>
+        <h4>Available Attributes</h4>
+        <ul>
+            <li>src -- Same as with the img tag, this is used to declare the location of the video</li>
+            <li>width -- Can set the width of the player</li>
+            <li>height -- Can set the height of the player</li>
+            <li>controls -- adds basic video controls to the player</li>
+        </ul>
+        <h4>Example</h4>
+        <div class="code">
+            <p>&lt;video src="yourvideo.mp4" controls&gt;Video could not be displayed&lt;/video&gt;</p>
+        </div>
+    </main>
+
+</body>
