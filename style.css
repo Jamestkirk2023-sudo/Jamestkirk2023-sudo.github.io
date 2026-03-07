@@ -108,3 +108,7 @@ td {
     white-space: pre-line;
     
 }
+
+.indent {
+    margin-left: 30px;
+}
