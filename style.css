@@ -8,17 +8,17 @@ body {
 }
 
 nav {
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 1em .75em;
+    padding: 1em;
 }
 
 /* Style the nav buttons */
 
-nav li {
-    display: inline;
-}
 
 nav a {
+    display: inline-block;
     padding: 5px 10px;
     border: 1px solid black;
     display: inline;
@@ -36,7 +36,7 @@ nav a:hover {
 }
 
 nav a:active {
-    margin-top: 5px;
+    
     box-shadow: 0px 0px;
     color: gray;
 }
