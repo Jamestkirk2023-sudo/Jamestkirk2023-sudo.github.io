@@ -12,6 +12,7 @@ nav {
     justify-content: center;
     gap: 1em .75em;
     padding: 1em;
+    flex-wrap: wrap;
 }
 
 /* Style the nav buttons */
