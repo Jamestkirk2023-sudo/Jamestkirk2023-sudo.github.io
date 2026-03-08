@@ -29,7 +29,7 @@ nav a {
     color: #F5E6E8;
     text-decoration: none;
     cursor: pointer;
-    box-shadow: 1px 4px 7px black;
+    box-shadow: 1px 4px 7px #100b1d;
     border-radius: 10px;
 }
 
@@ -39,7 +39,7 @@ nav a:hover {
 
 nav a:active {
     
-    box-shadow: 0px 0px;
+    box-shadow: inset 1px 4px 7px #231942;
     color: #192A51;
 }
 
