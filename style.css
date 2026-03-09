@@ -93,6 +93,10 @@ td {
 
 }
 
+td.col1 {
+    width: 8em;
+}
+
 /* Stlying for code blocks */
 
 .code {
