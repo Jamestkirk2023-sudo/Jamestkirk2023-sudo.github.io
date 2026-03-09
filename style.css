@@ -25,6 +25,7 @@ nav a {
     border: 1px solid black;
     display: inline;
     font-size: 25px;
+    font-weight: 500;
     background-color: #AAA1C8;
     color: #F5E6E8;
     text-decoration: none;
