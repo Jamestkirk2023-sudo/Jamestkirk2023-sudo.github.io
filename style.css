@@ -8,6 +8,9 @@ body {
     color: #F5E6E8;
 }
 
+
+
+
 nav {
     display: flex;
     justify-content: center;
@@ -81,6 +84,14 @@ table {
     border: #967AA1 solid 2px;
 }
 
+
+.tables {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+
 th {
     background-color: #967AA1;
     font-size: 20px;
@@ -90,11 +101,11 @@ th {
 td {
     border-top: 1px solid #967AA1;
     font-size: 16px;
-
+    padding: 0em 1em;
 }
 
 td.col1 {
-    width: 8em;
+    width: 7em;
 }
 
 /* Stlying for code blocks */
